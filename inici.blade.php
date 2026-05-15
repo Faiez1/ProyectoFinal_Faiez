@@ -12,7 +12,7 @@
         <section class="public-hero">
             <x-application-logo style="width:150px; display:block; margin:0 auto;" />
             <h1 class="public-title">{{ config('app.name', 'Escola') }}</h1>
-            <p class="public-subtitle">Mehmood Aplicació per a la gestió d'una escola de cicles formatius - Collados Test</p>
+            <p class="public-subtitle">Aplicació per a la gestió d'una escola de cicles formatius - Collados Test</p>
 
             <div class="public-actions">
                 <a href="{{ url('/info') }}">Informació de l'aplicació</a>
