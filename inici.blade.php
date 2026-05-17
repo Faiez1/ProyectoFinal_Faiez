@@ -15,7 +15,7 @@
             <p class="public-subtitle">Aplicació per a la gestió d'una escola de cicles formatius</p>
 
             <div class="public-actions">
-                <a href="{{ url('/info') }}">Faiez Informació de l'aplicació</a>
+                <a href="{{ url('/info') }}">Informació de l'aplicació</a>
 
                 @if (Route::has('login'))
                     @auth
